@@ -1,0 +1,121 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FD6E0A;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    padding: 50px 0;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Header styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto;
+}
+.banner{
+    padding: 30px 30px 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-greetings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner .banner-title{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner .banner-content{
+    max-width: 585px;
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner .btn{
+    margin-right: 30px;
+}
+.banner .profile-picture{
+    width: 584px;
+}
+
+/* Main styles */
+
+
+/* About Section Styles */
+.about{
+    max-width: 1140px;
+    padding: 130px 156px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px auto;
+}
+.about .about-content{
+    margin-top: 30px;
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}

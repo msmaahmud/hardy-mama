@@ -36,6 +36,14 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+.section-content{
+    margin-top: 30px;
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* Nav styles */
 nav {
     display: flex;
@@ -107,6 +115,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* About Section Styles */
 .about{
@@ -114,14 +125,6 @@ main{
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px auto;
-}
-.about .about-content{
-    margin-top: 30px;
-    color:#757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
 }
 .about .about-info-container{
     margin-top: 30px;
@@ -143,4 +146,45 @@ main{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+/* what i do styles */
+
+.what-i-do .section-content{
+    padding: 0 110px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.skill-title{
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Resume Section Styles */
+.resume-column-title{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
 }

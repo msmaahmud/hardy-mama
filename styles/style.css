@@ -17,6 +17,7 @@ body{
     color: #FFFFFF;
     font-weight: 700;
     padding: 18px 36px;
+    cursor: pointer;
 }
 .btn-secondary{
     background-color: transparent;
@@ -26,6 +27,7 @@ body{
     color: #FD6E0A;
     font-weight: 700;
     padding: 18px 36px;
+    cursor: pointer;
 }
 .section-title{
     color:#181818;
@@ -101,11 +103,13 @@ nav a{
 }
 
 /* Main styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 .about{
-    max-width: 1140px;
     padding: 130px 156px;
     border-radius: 10px;
     background-color: #FFF8F3;
@@ -117,5 +121,26 @@ nav a{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+}
+.about .about-info-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.about .about-info{
+    text-align: center;
+}
+.about .about-info .info-title{
+    margin-bottom: 8px;
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about .about-info .info-description{
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 30px;
 }

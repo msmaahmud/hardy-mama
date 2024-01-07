@@ -232,3 +232,42 @@ main section{
 .download-cv .btn{
     margin: 0 auto;
 }
+
+/* Footer Styles */
+footer{
+    background-color: #FFF8F3;
+    margin-top: 112px;
+    padding: 130px 200px;
+    display: flex;
+    gap: 116px;
+}
+.footer-colum{
+    width: 50%;
+}
+.footer-colum .section-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-colum .section-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.social-links img{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.contact input[type="text"], .contact input[type="email"], .contact textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 26px;
+    font-size: 16px;
+    color: #757575;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width: 90%;
+}
